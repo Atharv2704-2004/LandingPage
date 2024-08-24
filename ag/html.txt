@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="gawade.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <div class="fri">
+        <nav class="nav">
+
+            <div class="logo">
+                <img src="treavago.png">
+
+            </div>
+            <ul>
+                <li> Resort</li>
+                <li>Attraction</li>
+                <li>Photos</li>
+                <li>Specials</li>
+                <li>Reviwes</li>
+                </li>
+            </ul>
+            <div class="se">
+                <img src="icon.png">
+                <img src="earth.png">
+            </div>
+            <div class="lj">
+                <button>Login</button>
+                <button>Join Us</button>
+            </div>
+
+
+        </nav>
+        <div class="fs">
+            <div class="ft">
+
+                <p id="new">New Tour</p>
+                <h1>Discover India !</h1>
+                <ul>
+                    <li id="c"><img src="clock.svg"><span>3 Days & 2 Neight</span></li>
+                    <li id="s"><img src="star.png"><span>5.0 Reviwes</span></li>
+
+                </ul>
+
+            </div>
+            <div class="side">
+                <div class="mum">
+                    <img id="mum" src="mum.jpg">
+                    <span>Mumbai</span><br>
+                    <i id="loca" class="fa-solid fa-location-dot"></i>
+                    <spna id="ind">India</spna>
+
+                </div>
+                <div class="mum">
+                    <img id="mum" src="leh.jpg">
+                    <span>Ledakh</span><br>
+                    <i id="loca" class="fa-solid fa-location-dot"></i>
+                    <spna id="ind">India</spna>
+
+                </div>
+               <!-- <div class="mu">
+                    <img id="mu" src="raj.jpg">
+                    <span id="ra">Rajasthan</span><br>
+                    <i id="loc" class="fa-solid fa-location-dot"></i>
+                    <spna id="in">India</spna>
+
+                </div>-->
+                <div class="mum">
+                    <img id="mum" src="raj.jpg">
+                    <span>Rajasthan</span><br>
+                    <i id="loca" class="fa-solid fa-location-dot"></i>
+                    <spna id="ind">India</spna>
+
+                </div>
+
+            </div>
+
+        </div>
+        <div class="book">
+            <button>Book Now</button>
+        </div>
+        <div class="bar">
+            <ul>
+                <li> <i id="loca" class="fa-solid fa-location-dot"></i><span>Where we go ?</span></li>
+                <li><i class="fa-regular fa-calendar"></i><span>Departure day</span></li>
+                <li><i class="fa-solid fa-people-group"></i><span>Guests</span></li>
+            </ul>
+
+        </div>
+    </div>
+    <div class="second">
+        <div class="sf">
+            <h1>Discover A New Way <br>Travel.....</h1>
+
+        </div>
+        
+        <div class="st">
+            <img src="row.jpg">
+            <div class="stf">
+                <p>The More<br> Important the<br>Work</p>
+                <i id="vid" class="fa-solid fa-video"></i>
+                <span>Watch Video</span>
+
+            </div>
+        </div>
+
+    </div>
+    <div class="thr">
+        <div class="thf">
+            <h1>Our Favorite<br>Destinations</h1>
+        
+            <ul>
+                <li>Frist Class Flights</li>
+                <li>5 Star Accommodation</li>
+                <li>Inclusive Packages</li>
+                <li>Luxury Vechicals</li>
+                <li>Best Hostels</li>
+            </ul>
+        </div>
+        <div class="ths">
+            <img src="aus.jpg">
+            <span>Australia</span>
+        </div>
+        <div class="tht">
+            <img src="fa.jpg">
+            <span>France</span>
+           
+        </div>
+        <div class="thff">
+            <img src="jav.jpg">
+            <span>Japan</span>
+        </div>
+        <div class="thfi">
+            <img src="nyp.jpg">
+            <span>America</span>
+        </div>
+       
+
+    </div>
+    <div class="for">
+        <h1>Feactured Tour In India</h1>
+        <div class="forf">
+            <div class="card">
+                <img src="kel.jpg">
+                <p>Kerla</p>
+                <p>God's Own Country</p>
+                <p>&#8377 20,000</p>
+                <p><img id="clk" src="clock.svg"> 3 Days & 2 Neights</p> 
+
+            </div>
+            <div class="card">
+                <img src="ski.jpg">
+                <p>Sikkim</p>
+                <p>Small but beautiful</p>
+                <p>&#8377 20,000</p>
+                <p><img id="clk" src="clock.svg"> 3 Days & 2 Neights</p> 
+
+            </div>
+            <div class="card">
+                <img src="uk.jpg">
+                <p>Uttarakhand</p>
+                <p>Simply Heaven!</p>
+                <p>&#8377 20,000</p>
+                <p><img id="clk" src="clock.svg"> 3 Days & 2 Neights</p> 
+
+            </div>
+            <div class="card">
+                <img src="shi.jpg">
+                <p>Himachanchal</p>
+                <p>Unforgettable Himachal.</p>
+                <p>&#8377 20,000</p>
+                <p><img id="clk" src="clock.svg"> 3 Days & 2 Neights</p> 
+
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>About Us</h3>
+                <p>We are passionate about helping you explore the world. Discover your next adventure with us!</p>
+            </div>
+            <div class="footer-section">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Email: info@travelwebsite.com</li>
+                    <li>Phone: +123 456 7890</li>
+                    <li>Address: 123 Travel St, Wanderlust City</li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Follow Us</h3>
+                <div class="social-links">
+                    <a href="#" class="social-icon">Facebook</a>
+                    <a href="#" class="social-icon">Twitter</a>
+                    <a href="#" class="social-icon">Instagram</a>
+                    <a href="#" class="social-icon">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Travel Website. All rights reserved.</p>
+        </div>
+    </footer>
+
+
+
+
+
+
+
+</body>
+
+</html>

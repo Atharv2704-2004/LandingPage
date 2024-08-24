@@ -1,0 +1,291 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #333;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    color: #fff;
+}
+
+.nav .logo img {
+    max-height: 50px;
+}
+
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.nav ul li {
+    cursor: pointer;
+}
+
+.nav .se img {
+    max-height: 30px;
+    margin: 0 10px;
+}
+
+.nav .lj button {
+    margin: 0 5px;
+    padding: 10px 20px;
+    border: none;
+    background-color: #555;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav .lj button:hover {
+    background-color: #777;
+}
+
+/* Hero Section */
+.fs {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.ft {
+    flex: 2;
+}
+
+.ft h1 {
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.ft p {
+    font-size: 1.2em;
+    margin: 0;
+}
+
+.ft ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.ft ul li {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.ft ul li img {
+    margin-right: 10px;
+}
+
+.side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.mum {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    text-align: center;
+    padding: 10px;
+}
+
+.mum img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.mum span {
+    display: block;
+    margin-top: 10px;
+}
+
+.mum i {
+    color: #555;
+}
+
+.book {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.book button {
+    padding: 10px 20px;
+    border: none;
+    background-color: #28a745;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.book button:hover {
+    background-color: #218838;
+}
+
+/* Additional Sections */
+.second {
+    padding: 20px;
+    text-align: center;
+}
+
+.st {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.st img {
+    max-width: 100%;
+    height: auto;
+    max-height: 300px;
+}
+
+.stf {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.stf i {
+    font-size: 2em;
+    margin-right: 10px;
+}
+
+.thr {
+    padding: 20px;
+    background-color: #f8f9fa;
+}
+
+.thf {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.thf h1 {
+    margin-bottom: 10px;
+}
+
+.thr .thf ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.thr .thf ul li {
+    font-size: 1.1em;
+}
+
+.ths, .tht, .thff, .thfi {
+    text-align: center;
+    margin: 10px;
+}
+
+.ths img, .tht img, .thff img, .thfi img {
+    width: 100px;
+    height: auto;
+}
+
+.for {
+    padding: 20px;
+}
+
+.forh1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.forf {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    padding: 10px;
+    width: 220px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.card p {
+    margin: 5px 0;
+}
+
+/* Footer */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    margin: 0 10px;
+}
+
+.footer-section h3 {
+    margin-top: 0;
+}
+
+.social-links {
+    display: flex;
+    gap: 10px;
+}
+
+.social-icon {
+    color: #fff;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    border-top: 1px solid #444;
+    padding-top: 10px;
+}
